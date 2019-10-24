@@ -1,0 +1,27 @@
+package constructor;
+
+public class Calc {
+	int num1;
+	int num2;
+	int result;
+
+	public Calc() {
+		num1 = 5;
+		num2 = 10;
+		
+	}
+	public Calc(int n) {
+		num1 = n;
+		num2 = n;
+		System.out.println(num1+num2);
+		
+	}
+	public static void main(String[] args) {
+		Calc obj = new Calc(5);
+
+		
+	}
+
+	
+	
+}
