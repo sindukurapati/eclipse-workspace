@@ -1,0 +1,27 @@
+package constructor;
+
+public class parameterizedCons {
+	int id;
+	String name;
+
+	parameterizedCons(int i, String n) {
+		id = i;
+		name = n;
+	}
+
+	public void display() {
+		System.out.println(id + " " + name);
+	}
+
+	public static void main(String[] args) {
+		parameterizedCons d1 = new parameterizedCons(111, "sindu");
+		parameterizedCons d2 = new parameterizedCons(222, "sin");
+		parameterizedCons d3 = new parameterizedCons(333, "si");
+
+		d1.display();
+		d2.display();
+		d3.display();
+
+	}
+
+}
