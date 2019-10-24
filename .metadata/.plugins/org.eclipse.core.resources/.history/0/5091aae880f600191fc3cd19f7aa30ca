@@ -1,0 +1,14 @@
+package runTimePoly;
+
+public class Triangle extends Shape {
+	public void draw() {
+		System.out.println("The shape is a triangle");
+	}
+	public static void main(String[] args) {
+		Shape obj;
+		obj = new Rectangle();
+		obj = new Circle();
+		obj = new Triangle();
+		obj.draw();
+	}
+}

@@ -1,0 +1,12 @@
+package runTimePoly;
+
+public class splendor extends Bike {
+public void run() {
+	System.out.
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
